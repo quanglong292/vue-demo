@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    
     <Header @btn-click="toggleAddTask" title="Task tracker" :showAddTask="showAddTask"></Header>
     <router-view :showAddTask="showAddTask"></router-view>
     <Footer/>
